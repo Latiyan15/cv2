@@ -2,21 +2,20 @@ import React, { useState } from 'react';
 
 const HackathonLeaderboard = () => {
   const [participants, setParticipants] = useState([
-    { id: 1, name: 'Dristi Agarwal', score: 0 },
+    { id: 1, name: 'Dristi Agarwal', score: 18 },
     { id: 2, name: 'Harshit Gupta', score: 0 },
-    { id: 3, name: 'Manav Garg', score: 0 },
-    { id: 4, name: 'Pari Goyal', score: 0 },
-    { id: 5, name: 'Sanchita Das', score: 0 },
-    { id: 6, name: 'Sumit Kumar', score: 0 },
-    { id: 7, name: 'Tanish Kashyap', score: 0 },
-    { id: 8, name: 'Utsav Garg', score: 0 },
-    { id: 9, name: 'Yashasvini Sharma', score: 0 },
-    { id: 10, name: 'Khrish Chauhan', score: 0 },
-    { id: 11, name: 'Ishan', score: 0 },
-    { id: 12, name: 'Himanshu', score: 0 },
-    { id: 13, name: 'Akansha', score: 0 },
-    { id: 14, name: 'Bhavya', score: 0 },
-    { id: 15, name: 'Himani', score: 0 }
+    { id: 3, name: 'Manav Garg', score: 20 },
+    { id: 4, name: 'Pari Goyal', score: 43 },
+    { id: 5, name: 'Sanchita Das', score: 14 },
+    { id: 6, name: 'Sumit Kumar', score: 3 },
+    { id: 7, name: 'Tanish Kashyap', score: 29 },
+    { id: 8, name: 'Utsav Garg', score: 26 },
+    { id: 9, name: 'Yashasvini Sharma', score: 3 },
+    { id: 10, name: 'Khrish Chauhan', score: 16 },
+    { id: 11, name: 'Himanshu', score: 17 },
+    { id: 12, name: 'Akansha', score: 0 },
+    { id: 13, name: 'Bhavya', score: 2 },
+    { id: 14, name: 'Himani', score: 0 }
   ]);
 
   const sortedParticipants = [...participants].sort((a, b) => b.score - a.score);

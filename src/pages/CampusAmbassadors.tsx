@@ -31,11 +31,11 @@ const CampusAmbassadors = () => {
 
                 <div className="space-y-3 md:space-y-4">
                     {[
-                        { id: 1, name: 'Aarav Sharma', registrations: 45 },
-                        { id: 2, name: 'Ishita Patel', registrations: 38 },
-                        { id: 3, name: 'Rohan Gupta', registrations: 32 },
-                        { id: 4, name: 'Sneha Singh', registrations: 28 },
-                        { id: 5, name: 'Vikram Malhotra', registrations: 25 }
+                        { id: 1, name: '.', registrations: 0 },
+                        { id: 2, name: '.', registrations: 0 },
+                        { id: 3, name: '.', registrations: 0 },
+                        { id: 4, name: '.', registrations: 0 },
+                        { id: 5, name: '.', registrations: 0 }
                     ].map((ambassador, index) => (
                         <div
                             key={ambassador.id}

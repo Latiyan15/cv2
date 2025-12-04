@@ -5,20 +5,20 @@ import { Trophy, Users, Sparkles } from 'lucide-react';
 const Home = () => {
     const navigate = useNavigate();
     const [participants] = useState([
-        { id: 1, name: 'Dristi Agarwal', score: 18 },
+        { id: 1, name: 'Dristi Agarwal', score: 23 },
         { id: 2, name: 'Harshit Gupta', score: 0 },
-        { id: 3, name: 'Manav Garg', score: 25 },
-        { id: 4, name: 'Pari Goyal', score: 50 },
-        { id: 5, name: 'Sanchita Das', score: 16 },
+        { id: 3, name: 'Manav Garg', score: 27 },
+        { id: 4, name: 'Pari Goyal', score: 59 },
+        { id: 5, name: 'Sanchita Das', score: 28 },
         { id: 6, name: 'Sumit Kumar', score: 5 },
-        { id: 7, name: 'Tanish Kashyap', score: 47 },
-        { id: 8, name: 'Utsav Garg', score: 53 },
-        { id: 9, name: 'Yashasvini Sharma', score: 3 },
-        { id: 10, name: 'Khrish Chauhan', score: 18 },
-        { id: 11, name: 'Himanshu', score: 25 },
+        { id: 7, name: 'Tanish Kashyap', score: 57 },
+        { id: 8, name: 'Utsav Garg', score: 63 },
+        { id: 9, name: 'Yashasvini Sharma', score: 4 },
+        { id: 10, name: 'Khrish Chauhan', score: 19 },
+        { id: 11, name: 'Himanshu', score: 31 },
         { id: 12, name: 'Akansha', score: 1 },
         { id: 13, name: 'Bhavya', score: 3 },
-        { id: 14, name: 'Himani', score: 7 }
+        { id: 14, name: 'Himani', score: 8 }
     ]);
 
     const sortedParticipants = [...participants].sort((a, b) => b.score - a.score);

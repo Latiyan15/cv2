@@ -15,7 +15,7 @@ const Home = () => {
         { id: 8, name: 'Utsav Garg', score: 91 },
         { id: 9, name: 'Yashasvini Sharma', score: 4 },
         { id: 10, name: 'Khrish Chauhan', score: 19 },
-        { id: 11, name: 'Himanshu', score: 44 },
+        { id: 11, name: 'Himanshu', score: 55 },
         { id: 12, name: 'Akansha', score: 1 },
         { id: 13, name: 'Bhavya', score: 3 },
         { id: 14, name: 'Himani', score: 8 }

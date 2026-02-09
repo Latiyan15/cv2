@@ -31,8 +31,8 @@ const CampusAmbassadors = () => {
 
                 <div className="space-y-3 md:space-y-4">
                     {[
-                        { id: 1, name: '.', registrations: 0 },
-                        { id: 2, name: '.', registrations: 0 },
+                        { id: 1, name: 'Abhinav', registrations: 32 },
+                        { id: 2, name: 'Jatin', registrations: 18 },
                         { id: 3, name: '.', registrations: 0 },
                         { id: 4, name: '.', registrations: 0 },
                         { id: 5, name: '.', registrations: 0 }
